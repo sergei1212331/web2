@@ -1,0 +1,51 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+    color: #fff; 
+}
+
+.sidenav h3 {
+    font-size: 20px;
+}
+
+.sidenav p {
+    margin: 10px 0;
+}
+
+.main {
+    margin-left: 300px; 
+    font-size: 18px; 
+    padding: 20px;
+    overflow-y: auto; 
+    height: 100%; 
+    box-sizing: border-box;
+}
+
+#resume {
+    float: right;
+    width: calc(100% - 320px);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#personal-info,
+#contact-info {
+    margin-top: 60px; 
+}
+
+#personal-info img {
+    display: block; 
+    margin: 0 auto 20px; 
+    border-radius: 50%; 
+}
